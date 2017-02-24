@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.creatures {
+  margin-top: 120px;
+}
+
+.caption {
+  font-size: 35px;
+  font-family: monospace;
+  margin-top: 40px;
+}
