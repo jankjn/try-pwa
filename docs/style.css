@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  padding-top: 1px;
+  background:#F8EEB9;
+  transition: 1s all;
+}
+body.no-transition {
+  transition: none;
+}
+body.offline {
+  transform: translateX(-100vw);
+  background-color: gray;
+}
+
+.caption {
+  font-size: 35px;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+.creature {
+  margin-top: 25vh;
+}
+.creature:last-child {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 100%;
+}
