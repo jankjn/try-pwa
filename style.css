@@ -5,6 +5,9 @@ body {
   background:#F8EEB9;
   transition: 1s all;
 }
+body.no-transition {
+  transition: none;
+}
 body.offline {
   transform: translateX(-100vw);
   background-color: gray;
