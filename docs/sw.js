@@ -1,12 +1,14 @@
 const CACHE_KEY = 'try-pwa-cache-v1'
 
+const path = '/try-pwa'
+
 async function cacheAssets() {
   const cache = await caches.open(CACHE_KEY)
   return cache.addAll([
-    '/',
-    '/main.js',
-    '/style.css',
-    '/creatures.css',
+    path + '/',
+    path + '/main.js',
+    path + '/style.css',
+    path + '/creatures.css',
   ])
 }
 

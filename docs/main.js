@@ -14,4 +14,4 @@ window.ononline = window.onoffline = _ => {
   }
 }
 
-navigator.serviceWorker.register('/sw.js')
+navigator.serviceWorker.register('sw.js')
